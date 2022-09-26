@@ -1,6 +1,8 @@
 
 
-  let sum = (a,b) =>   a + b;
+  let sum = (a,b) =>   {
+    return a + b;
+  };
   
 
   console.log(sum(3,5));
