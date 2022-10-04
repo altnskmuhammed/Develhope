@@ -10,10 +10,10 @@ const persons = [
   { name: "Sandra", age: 34 },
   { name: "Alice", age: 28 },
 ];
-function nicknameMap(persons) {}
-
-console.log(
-  persons.map((persons) => {
+function nicknameMap(persons) {
+  return persons.map((persons) => {
     return persons.name + "-" + persons.age;
-  })
-);
+  });
+}
+
+console.log(nicknameMap(persons));
