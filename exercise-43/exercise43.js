@@ -4,16 +4,9 @@ let user = {
   age: 30,
 };
 
-let newUser = {...user}; //  Object.assign({} , user) or JSON.parse(JSON.stringify(user))  3 method for coppy object
-
-
-for(const item in newUser) {
-  item === "name" 
-    ? newUser[item] = "Paolo" 
-    : null;
-}
-
+let newUser = {...user , name: "Paulo"}; //  Object.assign({} , user) or JSON.parse(JSON.stringify(user))  3 method for coppy object
 
 
 console.log(newUser);
 console.log(user);
+
