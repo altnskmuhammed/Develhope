@@ -1,5 +1,5 @@
-isSunday = true;
-isHomeworkCompleted = false;
+let isSunday = true;
+let isHomeworkCompleted = false;
 
 let holiday =
   isSunday && isHomeworkCompleted
